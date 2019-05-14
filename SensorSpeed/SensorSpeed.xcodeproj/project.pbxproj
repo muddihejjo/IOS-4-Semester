@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6B557622574A9600D536F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B557522574A9600D536F9 /* AppDelegate.swift */; };
+		3F6B557822574A9600D536F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B557722574A9600D536F9 /* ViewController.swift */; };
+		3F6B557B22574A9600D536F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B557922574A9600D536F9 /* Main.storyboard */; };
+		3F6B557D22574A9800D536F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B557C22574A9800D536F9 /* Assets.xcassets */; };
+		3F6B558022574A9800D536F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B557E22574A9800D536F9 /* LaunchScreen.storyboard */; };
+		3F6B558B22574A9800D536F9 /* SensorSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B558A22574A9800D536F9 /* SensorSpeedTests.swift */; };
+		3F6B559622574A9800D536F9 /* SensorSpeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B559522574A9800D536F9 /* SensorSpeedUITests.swift */; };
+		3F929B05225D3C8F0094A6ED /* AcceleroMeterSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929B04225D3C8F0094A6ED /* AcceleroMeterSpeed.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6B558722574A9800D536F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6B556A22574A9600D536F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6B557122574A9600D536F9;
+			remoteInfo = SensorSpeed;
+		};
+		3F6B559222574A9800D536F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6B556A22574A9600D536F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6B557122574A9600D536F9;
+			remoteInfo = SensorSpeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F6B557222574A9600D536F9 /* SensorSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6B557522574A9600D536F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F6B557722574A9600D536F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F6B557A22574A9600D536F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F6B557C22574A9800D536F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6B557F22574A9800D536F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F6B558122574A9800D536F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6B558622574A9800D536F9 /* SensorSpeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorSpeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6B558A22574A9800D536F9 /* SensorSpeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSpeedTests.swift; sourceTree = "<group>"; };
+		3F6B558C22574A9800D536F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6B559122574A9800D536F9 /* SensorSpeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorSpeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6B559522574A9800D536F9 /* SensorSpeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSpeedUITests.swift; sourceTree = "<group>"; };
+		3F6B559722574A9800D536F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F929B04225D3C8F0094A6ED /* AcceleroMeterSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleroMeterSpeed.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6B556F22574A9600D536F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B558322574A9800D536F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B558E22574A9800D536F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6B556922574A9600D536F9 = {
+			isa = PBXGroup;
+			children = (
+				3F6B557422574A9600D536F9 /* SensorSpeed */,
+				3F6B558922574A9800D536F9 /* SensorSpeedTests */,
+				3F6B559422574A9800D536F9 /* SensorSpeedUITests */,
+				3F6B557322574A9600D536F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6B557322574A9600D536F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B557222574A9600D536F9 /* SensorSpeed.app */,
+				3F6B558622574A9800D536F9 /* SensorSpeedTests.xctest */,
+				3F6B559122574A9800D536F9 /* SensorSpeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6B557422574A9600D536F9 /* SensorSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B557522574A9600D536F9 /* AppDelegate.swift */,
+				3F929B04225D3C8F0094A6ED /* AcceleroMeterSpeed.swift */,
+				3F6B557722574A9600D536F9 /* ViewController.swift */,
+				3F6B557922574A9600D536F9 /* Main.storyboard */,
+				3F6B557C22574A9800D536F9 /* Assets.xcassets */,
+				3F6B557E22574A9800D536F9 /* LaunchScreen.storyboard */,
+				3F6B558122574A9800D536F9 /* Info.plist */,
+			);
+			path = SensorSpeed;
+			sourceTree = "<group>";
+		};
+		3F6B558922574A9800D536F9 /* SensorSpeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B558A22574A9800D536F9 /* SensorSpeedTests.swift */,
+				3F6B558C22574A9800D536F9 /* Info.plist */,
+			);
+			path = SensorSpeedTests;
+			sourceTree = "<group>";
+		};
+		3F6B559422574A9800D536F9 /* SensorSpeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B559522574A9800D536F9 /* SensorSpeedUITests.swift */,
+				3F6B559722574A9800D536F9 /* Info.plist */,
+			);
+			path = SensorSpeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6B557122574A9600D536F9 /* SensorSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6B559A22574A9800D536F9 /* Build configuration list for PBXNativeTarget "SensorSpeed" */;
+			buildPhases = (
+				3F6B556E22574A9600D536F9 /* Sources */,
+				3F6B556F22574A9600D536F9 /* Frameworks */,
+				3F6B557022574A9600D536F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensorSpeed;
+			productName = SensorSpeed;
+			productReference = 3F6B557222574A9600D536F9 /* SensorSpeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6B558522574A9800D536F9 /* SensorSpeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6B559D22574A9800D536F9 /* Build configuration list for PBXNativeTarget "SensorSpeedTests" */;
+			buildPhases = (
+				3F6B558222574A9800D536F9 /* Sources */,
+				3F6B558322574A9800D536F9 /* Frameworks */,
+				3F6B558422574A9800D536F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6B558822574A9800D536F9 /* PBXTargetDependency */,
+			);
+			name = SensorSpeedTests;
+			productName = SensorSpeedTests;
+			productReference = 3F6B558622574A9800D536F9 /* SensorSpeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F6B559022574A9800D536F9 /* SensorSpeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6B55A022574A9800D536F9 /* Build configuration list for PBXNativeTarget "SensorSpeedUITests" */;
+			buildPhases = (
+				3F6B558D22574A9800D536F9 /* Sources */,
+				3F6B558E22574A9800D536F9 /* Frameworks */,
+				3F6B558F22574A9800D536F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6B559322574A9800D536F9 /* PBXTargetDependency */,
+			);
+			name = SensorSpeedUITests;
+			productName = SensorSpeedUITests;
+			productReference = 3F6B559122574A9800D536F9 /* SensorSpeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6B556A22574A9600D536F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "muddi hejjo";
+				TargetAttributes = {
+					3F6B557122574A9600D536F9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3F6B558522574A9800D536F9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F6B557122574A9600D536F9;
+					};
+					3F6B559022574A9800D536F9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F6B557122574A9600D536F9;
+					};
+				};
+			};
+			buildConfigurationList = 3F6B556D22574A9600D536F9 /* Build configuration list for PBXProject "SensorSpeed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6B556922574A9600D536F9;
+			productRefGroup = 3F6B557322574A9600D536F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6B557122574A9600D536F9 /* SensorSpeed */,
+				3F6B558522574A9800D536F9 /* SensorSpeedTests */,
+				3F6B559022574A9800D536F9 /* SensorSpeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6B557022574A9600D536F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6B558022574A9800D536F9 /* LaunchScreen.storyboard in Resources */,
+				3F6B557D22574A9800D536F9 /* Assets.xcassets in Resources */,
+				3F6B557B22574A9600D536F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B558422574A9800D536F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B558F22574A9800D536F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6B556E22574A9600D536F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6B557822574A9600D536F9 /* ViewController.swift in Sources */,
+				3F6B557622574A9600D536F9 /* AppDelegate.swift in Sources */,
+				3F929B05225D3C8F0094A6ED /* AcceleroMeterSpeed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B558222574A9800D536F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6B558B22574A9800D536F9 /* SensorSpeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B558D22574A9800D536F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6B559622574A9800D536F9 /* SensorSpeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6B558822574A9800D536F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6B557122574A9600D536F9 /* SensorSpeed */;
+			targetProxy = 3F6B558722574A9800D536F9 /* PBXContainerItemProxy */;
+		};
+		3F6B559322574A9800D536F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6B557122574A9600D536F9 /* SensorSpeed */;
+			targetProxy = 3F6B559222574A9800D536F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F6B557922574A9600D536F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6B557A22574A9600D536F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6B557E22574A9800D536F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6B557F22574A9800D536F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F6B559822574A9800D536F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F6B559922574A9800D536F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F6B559B22574A9800D536F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SensorSpeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SensorSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F6B559C22574A9800D536F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SensorSpeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SensorSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F6B559E22574A9800D536F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SensorSpeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SensorSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensorSpeed.app/SensorSpeed";
+			};
+			name = Debug;
+		};
+		3F6B559F22574A9800D536F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SensorSpeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SensorSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensorSpeed.app/SensorSpeed";
+			};
+			name = Release;
+		};
+		3F6B55A122574A9800D536F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SensorSpeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SensorSpeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensorSpeed;
+			};
+			name = Debug;
+		};
+		3F6B55A222574A9800D536F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SensorSpeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SensorSpeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensorSpeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6B556D22574A9600D536F9 /* Build configuration list for PBXProject "SensorSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6B559822574A9800D536F9 /* Debug */,
+				3F6B559922574A9800D536F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6B559A22574A9800D536F9 /* Build configuration list for PBXNativeTarget "SensorSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6B559B22574A9800D536F9 /* Debug */,
+				3F6B559C22574A9800D536F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6B559D22574A9800D536F9 /* Build configuration list for PBXNativeTarget "SensorSpeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6B559E22574A9800D536F9 /* Debug */,
+				3F6B559F22574A9800D536F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6B55A022574A9800D536F9 /* Build configuration list for PBXNativeTarget "SensorSpeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6B55A122574A9800D536F9 /* Debug */,
+				3F6B55A222574A9800D536F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6B556A22574A9600D536F9 /* Project object */;
+}
