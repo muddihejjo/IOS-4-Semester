@@ -1,0 +1,6 @@
+framework module Pods_FilesInFirebase {
+  umbrella header "Pods-FilesInFirebase-umbrella.h"
+
+  export *
+  module * { export * }
+}

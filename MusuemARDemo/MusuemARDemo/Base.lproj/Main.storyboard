@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MusuemARDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arskView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxw-Lm-whv">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </arskView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gxw-Lm-whv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="N1Q-eG-tMO"/>
+                            <constraint firstItem="gxw-Lm-whv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="g5w-Nd-twc"/>
+                            <constraint firstItem="gxw-Lm-whv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gVc-TL-R7O"/>
+                            <constraint firstItem="gxw-Lm-whv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rAO-6I-n7Q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="arskView" destination="gxw-Lm-whv" id="IMK-lL-SkQ"/>
+                        <segue destination="7aI-ml-0S0" kind="show" identifier="segue1" id="Crc-C7-RBu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oDo-jc-dNg">
+            <objects>
+                <viewController id="7aI-ml-0S0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lMU-kQ-n1K">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvs-66-BWx">
+                                <rect key="frame" x="190" y="443" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="aET-kr-Gab" kind="unwind" unwindAction="returnedWithSegue:" id="601-qr-adA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Det er en kat!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DO8-uP-xeK">
+                                <rect key="frame" x="108" y="209" width="199" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4pB-7J-tMZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pyy-OG-38h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="aET-kr-Gab" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="762" y="112"/>
+        </scene>
+    </scenes>
+</document>

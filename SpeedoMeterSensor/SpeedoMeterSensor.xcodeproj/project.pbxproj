@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F929B13226086660094A6ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929B12226086660094A6ED /* AppDelegate.swift */; };
+		3F929B15226086660094A6ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929B14226086660094A6ED /* ViewController.swift */; };
+		3F929B18226086660094A6ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F929B16226086660094A6ED /* Main.storyboard */; };
+		3F929B1A2260866B0094A6ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F929B192260866B0094A6ED /* Assets.xcassets */; };
+		3F929B1D2260866B0094A6ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F929B1B2260866B0094A6ED /* LaunchScreen.storyboard */; };
+		3F929B282260866B0094A6ED /* SpeedoMeterSensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929B272260866B0094A6ED /* SpeedoMeterSensorTests.swift */; };
+		3F929B332260866B0094A6ED /* SpeedoMeterSensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929B322260866B0094A6ED /* SpeedoMeterSensorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F929B242260866B0094A6ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F929B07226086660094A6ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F929B0E226086660094A6ED;
+			remoteInfo = SpeedoMeterSensor;
+		};
+		3F929B2F2260866B0094A6ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F929B07226086660094A6ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F929B0E226086660094A6ED;
+			remoteInfo = SpeedoMeterSensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F929B0F226086660094A6ED /* SpeedoMeterSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedoMeterSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F929B12226086660094A6ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F929B14226086660094A6ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F929B17226086660094A6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F929B192260866B0094A6ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F929B1C2260866B0094A6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F929B1E2260866B0094A6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F929B232260866B0094A6ED /* SpeedoMeterSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedoMeterSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F929B272260866B0094A6ED /* SpeedoMeterSensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedoMeterSensorTests.swift; sourceTree = "<group>"; };
+		3F929B292260866B0094A6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F929B2E2260866B0094A6ED /* SpeedoMeterSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedoMeterSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F929B322260866B0094A6ED /* SpeedoMeterSensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedoMeterSensorUITests.swift; sourceTree = "<group>"; };
+		3F929B342260866B0094A6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F929B0C226086660094A6ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F929B202260866B0094A6ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F929B2B2260866B0094A6ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F929B06226086660094A6ED = {
+			isa = PBXGroup;
+			children = (
+				3F929B11226086660094A6ED /* SpeedoMeterSensor */,
+				3F929B262260866B0094A6ED /* SpeedoMeterSensorTests */,
+				3F929B312260866B0094A6ED /* SpeedoMeterSensorUITests */,
+				3F929B10226086660094A6ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F929B10226086660094A6ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F929B0F226086660094A6ED /* SpeedoMeterSensor.app */,
+				3F929B232260866B0094A6ED /* SpeedoMeterSensorTests.xctest */,
+				3F929B2E2260866B0094A6ED /* SpeedoMeterSensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F929B11226086660094A6ED /* SpeedoMeterSensor */ = {
+			isa = PBXGroup;
+			children = (
+				3F929B12226086660094A6ED /* AppDelegate.swift */,
+				3F929B14226086660094A6ED /* ViewController.swift */,
+				3F929B16226086660094A6ED /* Main.storyboard */,
+				3F929B192260866B0094A6ED /* Assets.xcassets */,
+				3F929B1B2260866B0094A6ED /* LaunchScreen.storyboard */,
+				3F929B1E2260866B0094A6ED /* Info.plist */,
+			);
+			path = SpeedoMeterSensor;
+			sourceTree = "<group>";
+		};
+		3F929B262260866B0094A6ED /* SpeedoMeterSensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F929B272260866B0094A6ED /* SpeedoMeterSensorTests.swift */,
+				3F929B292260866B0094A6ED /* Info.plist */,
+			);
+			path = SpeedoMeterSensorTests;
+			sourceTree = "<group>";
+		};
+		3F929B312260866B0094A6ED /* SpeedoMeterSensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F929B322260866B0094A6ED /* SpeedoMeterSensorUITests.swift */,
+				3F929B342260866B0094A6ED /* Info.plist */,
+			);
+			path = SpeedoMeterSensorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F929B0E226086660094A6ED /* SpeedoMeterSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F929B372260866B0094A6ED /* Build configuration list for PBXNativeTarget "SpeedoMeterSensor" */;
+			buildPhases = (
+				3F929B0B226086660094A6ED /* Sources */,
+				3F929B0C226086660094A6ED /* Frameworks */,
+				3F929B0D226086660094A6ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedoMeterSensor;
+			productName = SpeedoMeterSensor;
+			productReference = 3F929B0F226086660094A6ED /* SpeedoMeterSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F929B222260866B0094A6ED /* SpeedoMeterSensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F929B3A2260866B0094A6ED /* Build configuration list for PBXNativeTarget "SpeedoMeterSensorTests" */;
+			buildPhases = (
+				3F929B1F2260866B0094A6ED /* Sources */,
+				3F929B202260866B0094A6ED /* Frameworks */,
+				3F929B212260866B0094A6ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F929B252260866B0094A6ED /* PBXTargetDependency */,
+			);
+			name = SpeedoMeterSensorTests;
+			productName = SpeedoMeterSensorTests;
+			productReference = 3F929B232260866B0094A6ED /* SpeedoMeterSensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F929B2D2260866B0094A6ED /* SpeedoMeterSensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F929B3D2260866B0094A6ED /* Build configuration list for PBXNativeTarget "SpeedoMeterSensorUITests" */;
+			buildPhases = (
+				3F929B2A2260866B0094A6ED /* Sources */,
+				3F929B2B2260866B0094A6ED /* Frameworks */,
+				3F929B2C2260866B0094A6ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F929B302260866B0094A6ED /* PBXTargetDependency */,
+			);
+			name = SpeedoMeterSensorUITests;
+			productName = SpeedoMeterSensorUITests;
+			productReference = 3F929B2E2260866B0094A6ED /* SpeedoMeterSensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F929B07226086660094A6ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "muddi hejjo";
+				TargetAttributes = {
+					3F929B0E226086660094A6ED = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3F929B222260866B0094A6ED = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3F929B0E226086660094A6ED;
+					};
+					3F929B2D2260866B0094A6ED = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3F929B0E226086660094A6ED;
+					};
+				};
+			};
+			buildConfigurationList = 3F929B0A226086660094A6ED /* Build configuration list for PBXProject "SpeedoMeterSensor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F929B06226086660094A6ED;
+			productRefGroup = 3F929B10226086660094A6ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F929B0E226086660094A6ED /* SpeedoMeterSensor */,
+				3F929B222260866B0094A6ED /* SpeedoMeterSensorTests */,
+				3F929B2D2260866B0094A6ED /* SpeedoMeterSensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F929B0D226086660094A6ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F929B1D2260866B0094A6ED /* LaunchScreen.storyboard in Resources */,
+				3F929B1A2260866B0094A6ED /* Assets.xcassets in Resources */,
+				3F929B18226086660094A6ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F929B212260866B0094A6ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F929B2C2260866B0094A6ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F929B0B226086660094A6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F929B15226086660094A6ED /* ViewController.swift in Sources */,
+				3F929B13226086660094A6ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F929B1F2260866B0094A6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F929B282260866B0094A6ED /* SpeedoMeterSensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F929B2A2260866B0094A6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F929B332260866B0094A6ED /* SpeedoMeterSensorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F929B252260866B0094A6ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F929B0E226086660094A6ED /* SpeedoMeterSensor */;
+			targetProxy = 3F929B242260866B0094A6ED /* PBXContainerItemProxy */;
+		};
+		3F929B302260866B0094A6ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F929B0E226086660094A6ED /* SpeedoMeterSensor */;
+			targetProxy = 3F929B2F2260866B0094A6ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F929B16226086660094A6ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F929B17226086660094A6ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F929B1B2260866B0094A6ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F929B1C2260866B0094A6ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F929B352260866B0094A6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F929B362260866B0094A6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F929B382260866B0094A6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SpeedoMeterSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SpeedoMeterSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F929B392260866B0094A6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SpeedoMeterSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SpeedoMeterSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F929B3B2260866B0094A6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SpeedoMeterSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SpeedoMeterSensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedoMeterSensor.app/SpeedoMeterSensor";
+			};
+			name = Debug;
+		};
+		3F929B3C2260866B0094A6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SpeedoMeterSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SpeedoMeterSensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedoMeterSensor.app/SpeedoMeterSensor";
+			};
+			name = Release;
+		};
+		3F929B3E2260866B0094A6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SpeedoMeterSensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SpeedoMeterSensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedoMeterSensor;
+			};
+			name = Debug;
+		};
+		3F929B3F2260866B0094A6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKKP7Y8T7D;
+				INFOPLIST_FILE = SpeedoMeterSensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kea.SpeedoMeterSensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedoMeterSensor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F929B0A226086660094A6ED /* Build configuration list for PBXProject "SpeedoMeterSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F929B352260866B0094A6ED /* Debug */,
+				3F929B362260866B0094A6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F929B372260866B0094A6ED /* Build configuration list for PBXNativeTarget "SpeedoMeterSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F929B382260866B0094A6ED /* Debug */,
+				3F929B392260866B0094A6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F929B3A2260866B0094A6ED /* Build configuration list for PBXNativeTarget "SpeedoMeterSensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F929B3B2260866B0094A6ED /* Debug */,
+				3F929B3C2260866B0094A6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F929B3D2260866B0094A6ED /* Build configuration list for PBXNativeTarget "SpeedoMeterSensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F929B3E2260866B0094A6ED /* Debug */,
+				3F929B3F2260866B0094A6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F929B07226086660094A6ED /* Project object */;
+}
